@@ -117,7 +117,6 @@ class Bullet {
   }
 
   translate() {
-    const worldSpeed = 3;
     this.position.x += this.velocity.x;
     this.position.y += this.velocity.y;
     this.velocity.y += .05;
@@ -177,7 +176,6 @@ class Ship {
   }
 
   translate() {
-    const worldSpeed = 3;
     this.position.x += this.velocity.x;
     this.position.y += this.velocity.y;
 
